@@ -26,3 +26,5 @@ for folder in os.scandir("./"):
 for file in os.scandir(folder_to_use):
     #os.remove(home + "/Library/Application Support/Amazon Web Services/Amazon WorkSpaces/" + file.name)
     shutil.copyfile(folder_to_use + "/" + file.name, workspaces_folder + file.name)
+
+os.system("open -a /Applications/WorkSpaces.app")
