@@ -7,6 +7,7 @@ print("Which workspace would you like to open?")
 
 i = 1
 
+# printing all the folders to the screen for decision making
 for folder in os.scandir("./"):
     if folder.is_dir():
         print(" (" + str(i) + ") " + folder.name)
@@ -23,8 +24,8 @@ for folder in os.scandir("./"):
             break;
         i = i + 1
 
+# moving the configuration files over.
 for file in os.scandir(folder_to_use):
-    #os.remove(home + "/Library/Application Support/Amazon Web Services/Amazon WorkSpaces/" + file.name)
     shutil.copyfile(folder_to_use + "/" + file.name, workspaces_folder + file.name)
 
 os.system("open -a /Applications/WorkSpaces.app")
