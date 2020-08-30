@@ -4,11 +4,12 @@
                                | made for macOS |
                                +----------------+
               
-              +---------------------------------------------------+
-              | Reason: If someone has multiple Amazon Workspaces |
-              |      for different organizations, different       |
-              |        registration codes are required.           |
-              +---------------------------------------------------+
+              +----------------------------------------------------------+
+              |    Reason: If someone has multiple Amazon Workspaces     |
+              |          for different organizations, different          |
+              |             registration codes are required.             |
+              | (and I personally think the built in way takes too long) |
+              +----------------------------------------------------------+
 
 +------------------------------------------------------------------------------+
 | Setup: After setting up one workspace, navigate to this directory in Finder: |
